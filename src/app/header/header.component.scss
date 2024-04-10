@@ -9,8 +9,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: fit-content;
-    min-width: -webkit-fill-available;
+    // width: fit-content;
+    // min-width: -webkit-fill-available;
 }
 
 .nav-logo {
@@ -102,5 +102,34 @@ p {
 
 .nav-cart {
     font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    padding: 9px 10px;
+}
+.panel-ops p{
+    height: 100%;
+    padding: 10px 10px;
+    display: inline;
+}
+.panel-ops p:hover{
+ border: 1px solid white;
+ cursor: pointer;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
     font-weight: 700;
 }
