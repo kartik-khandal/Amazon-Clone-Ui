@@ -33,9 +33,14 @@ p {
     border: 1px solid white;
     cursor: pointer;
 }
-.nav-signin, .nav-cart, .nav-address, .nav-order{
-   padding: 10px;
+
+.nav-signin,
+.nav-cart,
+.nav-address,
+.nav-order {
+    padding: 10px;
 }
+
 .add-first {
     color: #cccccc;
     font-size: 0.84rem;
@@ -105,7 +110,7 @@ p {
     font-weight: 700;
 }
 
-.panel{
+.panel {
     height: 40px;
     background-color: #222f3d;
     display: flex;
@@ -113,23 +118,28 @@ p {
     align-items: center;
     justify-content: space-evenly;
 }
-.panel-all{
+
+.panel-all {
     padding: 9px 10px;
 }
-.panel-ops p{
+
+.panel-ops p {
     height: 100%;
     padding: 10px 10px;
     display: inline;
 }
-.panel-ops p:hover{
- border: 1px solid white;
- cursor: pointer;
+
+.panel-ops p:hover {
+    border: 1px solid white;
+    cursor: pointer;
 }
-.panel-ops{
+
+.panel-ops {
     width: 70%;
     font-size: 0.85rem;
 }
-.panel-deals{
+
+.panel-deals {
     font-size: 0.9rem;
     font-weight: 700;
 }

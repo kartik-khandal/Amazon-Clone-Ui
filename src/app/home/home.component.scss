@@ -1,0 +1,26 @@
+.hero-section {
+    height: 350px;
+    background-size: cover;
+    background-image: url(/assets/images/hero_image.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.hero-msg a {
+    margin-left: 2px;
+    text-decoration: none;
+    color: #007185;
+}
